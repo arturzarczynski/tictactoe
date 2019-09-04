@@ -24,7 +24,7 @@ def playGame():
 
         if winner == "X" or winner == "O":
             print(winner + " won.")
-        elif winner = None:
+        elif winner is None:
             print("Tie.")
 
 def handleTurn(player):
