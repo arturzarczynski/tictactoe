@@ -1,6 +1,6 @@
 board = ["1", "2", "3",
          "4", "5", "6",
-         "7", "8", "9", ]
+         "7", "8", "9"]
 
 gameStillGoing = True
 winner = None
@@ -45,8 +45,26 @@ def checkIfGameOver():
 
 
 def checkIfWin():
+    rowWinner = checkRows()
+
+    columnWinner = checkColumns()
+
+    diagonalWinner = checkDiagonals()
+
+    if rowWinner or columnWinner or diagonalWinner
+
+    else:
+        winner is None
     return
 
+def checkRows():
+    return
+
+def checkColumns():
+    return
+
+def checkDiagonals():
+    return
 
 def checkIfTie():
     return
